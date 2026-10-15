@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this software or model in your research, please cite this repository and the associated manuscript."
+
+title: "Optimal Stopping Formulation Coupling Entry Tear Diameter, False Lumen Expansion, and Serial Enlargement for Preemptive TEVAR After Type B Dissection"
+
+type: software
+
+authors:
+  - family-names: "Prihantini"
+
+    
+
+repository-code: "https://github.com/TitinPrihantini4/tbad-tevar-optimal-stopping-model"
+
+abstract: >-
+  This repository contains the computational implementation, model inputs,
+  numerical results, figures, and reproducibility materials for a
+  literature-informed mathematical proof-of-concept that formulates
+  continued surveillance versus preemptive thoracic endovascular aortic
+  repair (TEVAR) in uncomplicated type B aortic dissection (TBAD) as a
+  state-dependent optimal-stopping problem. The framework combines
+  observable aortic morphology with model-defined latent dynamics,
+  regime switching, theoretical waiting and procedural intensities,
+  and a finite-horizon Bellman decision rule. The model has not been
+  calibrated or validated using patient-level longitudinal outcomes,
+  and its model-derived stopping boundaries should not be interpreted
+  as clinical treatment recommendations.
+
+keywords:
+  - type B aortic dissection
+  - TBAD
+  - TEVAR
+  - optimal stopping
+  - mathematical modelling
+  - dynamical systems
+  - Bellman equation
+  - ordinary differential equations
+  - continuous-time Markov chain
+  - sensitivity analysis
+  - computational modelling
+
+license: MIT
