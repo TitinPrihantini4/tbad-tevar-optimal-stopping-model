@@ -1,0 +1,24 @@
+parameter_name,symbol_or_code,reference,unit,range_low,range_high,status,provenance_note
+Entry tear high-risk anchor,E_hr,10.0,mm,,Literature-derived,2022 ACC/AHA; 2024 ESC,
+False lumen high-risk anchor,F_hr,21.0,mm,20,22,Literature-derived midpoint,2022 ACC/AHA
+Aortic diameter high-risk anchor,D_hr,40.0,mm,,,Literature-derived,2022 ACC/AHA; 2024 ESC
+Serial enlargement anchor,DeltaD_hr,5.0,mm,,,Literature-derived,2022 ACC/AHA
+Acute phase boundary,T_acute,14.0,day,,,Literature-derived phase definition,2024 ESC; timing meta-analysis
+Subacute phase end,T_subacute,90.0,day,,,Literature-derived phase definition,2024 ESC; timing meta-analysis
+False-lumen tear growth coupling,k_fl_tear,0.042,day^-1,0.025,0.06,Provisional structural coefficient,Sensitivity range only
+False-lumen momentum coupling,k_fl_momentum,0.02,day^-1,0.01,0.032,Provisional structural coefficient,Sensitivity range only
+Aortic enlargement from FL burden,k_da_fl,0.02,day^-1,0.01,0.032,Provisional structural coefficient,Sensitivity range only
+Aortic enlargement from growth momentum,k_da_momentum,0.016,day^-1,0.008,0.026,Provisional structural coefficient,Sensitivity range only
+Tear-driven growth momentum,k_mom_tear,0.055,day^-1,0.03,0.08,Provisional structural coefficient,Sensitivity range only
+FL-driven growth momentum,k_mom_fl,0.045,day^-1,0.025,0.07,Provisional structural coefficient,Sensitivity range only
+Aorta-driven growth momentum,k_mom_aorta,0.04,day^-1,0.02,0.065,Provisional structural coefficient,Sensitivity range only
+Tear-driven morphologic burden,k_burden_tear,0.06,day^-1,0.035,0.09,Provisional structural coefficient,Sensitivity range only
+FL-driven morphologic burden,k_burden_fl,0.07,day^-1,0.04,0.1,Provisional structural coefficient,Sensitivity range only
+Growth-driven morphologic burden,k_burden_growth,0.085,day^-1,0.05,0.12,Provisional structural coefficient,Sensitivity range only
+Stability reserve recovery,k_reserve_recover,0.03,day^-1,0.018,0.05,Provisional structural coefficient,Sensitivity range only
+Burden-related reserve depletion,k_reserve_burden,0.06,day^-1,0.035,0.09,Provisional structural coefficient,Sensitivity range only
+Growth-related reserve depletion,k_reserve_growth,0.045,day^-1,0.025,0.07,Provisional structural coefficient,Sensitivity range only
+Baseline waiting intensity,hwait0,0.0005,model intensity/day,0.00025,0.001,Provisional decision coefficient,Not a mortality hazard
+Baseline procedure intensity,hproc0,0.012,model intensity,0.007,0.02,Provisional decision coefficient,Not a perioperative event rate
+Acute procedural penalty,acute_penalty,20.0,dimensionless,10.0,30.0,Provisional decision coefficient,Calibrates early-phase penalty shape
+Chronic procedural penalty,chronic_penalty,0.45,dimensionless,0.2,0.75,Provisional decision coefficient,Calibrates late-phase penalty shape
