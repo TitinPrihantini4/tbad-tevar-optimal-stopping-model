@@ -18,7 +18,7 @@ The model is intended for mathematical and computational investigation. It is no
 
 ---
 
-## Mathematical Framework
+## Mathematical Model
 
 The continuous state vector is
 
