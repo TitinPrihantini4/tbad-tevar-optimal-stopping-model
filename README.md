@@ -12,7 +12,7 @@ This repository contains the computational implementation, model inputs, numeric
 
 This project develops a literature-informed mathematical proof-of-concept for representing continued surveillance versus preemptive thoracic endovascular aortic repair (TEVAR) in uncomplicated type B aortic dissection (TBAD) as a state-dependent optimal-stopping problem.
 
-The framework combines potentially observable aortic morphology with model-defined latent dynamics, a continuous-time Markov regime representation, theoretical waiting and procedural intensities, and a finite-horizon Bellman decision rule.
+The model combines potentially observable aortic morphology with model-defined latent dynamics, a continuous-time Markov regime representation, theoretical waiting and procedural intensities, and a finite-horizon Bellman decision rule.
 
 The model is intended for mathematical and computational investigation. It is not a clinically calibrated prediction model and does not provide patient-specific treatment recommendations.
 
@@ -36,7 +36,7 @@ where:
 
 `G(t)`, `B(t)`, and `R(t)` are dimensionless latent mathematical states and should not be interpreted as validated biomarkers, physiological measurements, or patient-specific risk probabilities.
 
-The framework includes:
+The model includes:
 
 1. Literature-informed morphological normalization
 2. Coupled pre-intervention ODE dynamics
