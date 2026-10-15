@@ -1,0 +1,6 @@
+model,AIC,internal_accuracy
+Entry tear only,664.9863670917155,0.795
+Entry tear + false lumen,397.8807469606786,0.8825
+Morphology triad,159.85909895007222,0.95625
+Triad + serial enlargement,160.81480563248016,0.9575
+Full dynamic state,156.8354990781237,0.9575

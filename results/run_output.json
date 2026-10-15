@@ -1,0 +1,110 @@
+{
+  "seed": 20260816,
+  "reference_stopping_day": 33.0,
+  "reference_day30": {
+    "false_lumen_mm": 23.57239502001812,
+    "aortic_diameter_mm": 41.838822920856735,
+    "serial_enlargement_mm": 0.8388229208567353,
+    "stability_reserve": 0.35890738550390305
+  },
+  "post_tevar_equilibrium": {
+    "F": 17.0,
+    "D": 39.0,
+    "G": 0.0,
+    "B": -5.558643941607498e-27,
+    "R": 1.0
+  },
+  "eigenvalues": [
+    {
+      "real": -0.044999999998796,
+      "imag": 0.0
+    },
+    {
+      "real": -0.075,
+      "imag": 0.0
+    },
+    {
+      "real": -0.02199999999962689,
+      "imag": 0.0
+    },
+    {
+      "real": -0.01000000000025909,
+      "imag": 0.0
+    },
+    {
+      "real": -0.14,
+      "imag": 0.0
+    }
+  ],
+  "stochastic_stopping_day": {
+    "median": 33.0,
+    "p2_5": 27.0,
+    "p97_5": 41.0
+  },
+  "top_prcc": [
+    {
+      "parameter": "hwait0",
+      "PRCC_stopping_day": -0.932391201422478,
+      "p_value": 3.10347300374123e-222
+    },
+    {
+      "parameter": "acute_penalty",
+      "PRCC_stopping_day": 0.9244444631965651,
+      "p_value": 1.1679565796470994e-210
+    },
+    {
+      "parameter": "hproc0",
+      "PRCC_stopping_day": 0.9172128679234668,
+      "p_value": 3.532918634897532e-201
+    },
+    {
+      "parameter": "k_mom_tear",
+      "PRCC_stopping_day": -0.2651881160610859,
+      "p_value": 1.710924558822016e-09
+    },
+    {
+      "parameter": "k_mom_fl",
+      "PRCC_stopping_day": -0.1592541705015893,
+      "p_value": 0.0003502822296698
+    },
+    {
+      "parameter": "k_reserve_recover",
+      "PRCC_stopping_day": 0.1427854009715463,
+      "p_value": 0.0013685431711011
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario": "Reference high-risk morphology",
+      "stopping_day": 33.0
+    },
+    {
+      "scenario": "Smaller tear and false lumen",
+      "stopping_day": 43.0
+    },
+    {
+      "scenario": "Large entry tear",
+      "stopping_day": 30.0
+    },
+    {
+      "scenario": "Expanded false lumen",
+      "stopping_day": 30.0
+    },
+    {
+      "scenario": "Serial enlargement burden",
+      "stopping_day": 31.0
+    },
+    {
+      "scenario": "Low stability reserve",
+      "stopping_day": 33.0
+    },
+    {
+      "scenario": "Combined high-risk morphology",
+      "stopping_day": 26.0
+    },
+    {
+      "scenario": "Borderline morphology",
+      "stopping_day": 38.0
+    }
+  ]
+}
